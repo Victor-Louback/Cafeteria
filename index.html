@@ -1,19 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Cafeteria</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
+    <header id="topo"><!--header-->
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="nav-logo" href="#">Café Essenza</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="color: #eee3d0;"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav nav-links">
+                        <li class="nav-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header><!--/header-->
+
+    <section class="parallax caixa1 d-flex align-items-center"><!--parallax1-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="mx-auto">Nosso Café</h1>
+                </div>
+            </div>
+        </div>
+    </section><!--/parallax 1-->
+
+    <section class="conteudo"><!--conteudo 1-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="text-center">Bem-vindo à Café Essenza, um refúgio para os amantes do café. Nossa cafeteria
+                        é um espaço
+                        cuidadosamente projetado para criar uma atmosfera de tranquilidade e inspiração. Aqui, você pode
+                        apreciar a arte do café e desfrutar de momentos de calma em meio à agitação do dia a dia. Nosso
+                        objetivo é oferecer uma experiência sensorial completa, desde a escolha dos grãos até a
+                        preparação cuidadosa. Descubra uma jornada de sabores e aromas que irá despertar seus sentidos e
+                        nutrir sua alma.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="rounded-circle">
+                        <img src="img/pexels-porapak-apichodilok-373639.jpg" alt="Foto" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/conteudo 1-->
+
+    <section class="parallax caixa2 d-flex align-items-center"><!--parallax 2-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="mx-auto">Conheça o Nosso Espaço</h1>
+                </div>
+            </div>
+        </div>
+    </section><!--/parallax 2-->
+
+
+    <section class="conteudo"><!--conteudo 2-->
+        <div class="container">
+            <p class="text-center">Convidamos você a desfrutar da atmosfera acolhedora e do design moderno da Café
+                Essenza. Nosso espaço foi
+                cuidadosamente projetado para proporcionar uma experiência única aos nossos clientes. Aqui, você
+                encontrará um ambiente aconchegante, perfeito para relaxar, trabalhar ou socializar. Venha vivenciar
+                momentos especiais em nossa cafeteria.</p>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/pexels-afta-putta-gunawan-683039.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/pexels-esra-afşar-16061189.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pexels-on-shot-2788792.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section><!--/conteudo 2-->
+
+
+    <section class="parallax caixa3 d-flex align-items-center"><!--parallax 3-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="mx-auto">Nossas delicias</h1>
+                </div>
+            </div>
+        </div>
+    </section><!--/parallax 3-->
+
+    <section class="conteudo"><!--conteudo 1-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="img/CAFÉS.png" class="img-fluid img-menu" alt="">
+                    <div class="d-flex justify-content-center mt-3">
+                        <button class="btn btn-menu">MENU</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/conteudo 1-->
     
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/911919df65.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
