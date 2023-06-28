@@ -7,6 +7,10 @@
     --cor-6: #eee3d0;
 }
 
+*{
+    color: var(--cor-1);
+}
+
 body,
 html {
     margin: 0;
@@ -25,6 +29,7 @@ body {
 .nav-logo {
     color: var(--cor-6);
     font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
     text-decoration: none;
     padding: 5px;
 }
@@ -34,6 +39,10 @@ body {
     font-size: 1.3em;
     text-decoration: none;
     padding: 0px 10px;
+}
+
+.nav-links li a:hover {
+    color: var(--cor-1);
 }
 
 .parallax {
@@ -47,6 +56,7 @@ body {
 }
 
 .parallax h1 {
+    font-family: 'Dancing Script', cursive;
     background: var(--cor-5);
     color: var(--cor-2);
     width: 400px;
@@ -57,24 +67,31 @@ body {
 
 
 .caixa1{
-    background-image: url(img/pexels-afta-putta-gunawan-683039.jpg);
+    background-image: url(img/g-1.jpg);
 }
 
 .caixa2{
-    background-image: url(img/pexels-on-shot-2788792.jpg);
+    background-image: url(img/g-2.jpg);
+    height: 700px;
 }
 
 .caixa3{
-    background-image: url(img/pexels-on-shot-2788792.jpg);
+    background-image: url(img/g-3.png);
+    height: 700px;
+}
+
+.caixa4{
+    background-image: url(img/g-4.png);
+    height: 400px;
 }
 
 
 .conteudo {
-    padding: 40px;
+    padding: 20px;
 }
 
 .conteudo p {
-    margin-top: 80px;
+    margin-top: 30px;
     font-size: 1.2em;
 }
 
@@ -93,7 +110,7 @@ body {
 }
 
 #carouselExampleInterval img{
-    height: 500px;
+    height: 700px;
 }
 
 .img-menu{
@@ -101,6 +118,7 @@ body {
 }
 
 .btn-menu{
+    font-family: 'Dancing Script', cursive;
     background: var(--cor-2);
     color: var(--cor-6);
     font-size: 1.2em;
@@ -111,5 +129,87 @@ body {
     background: var(--cor-6);
     color: var(--cor-2);
     transition: .6s;
+}
+
+
+
+.box {
+    width: 350px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background: var(--cor-6);
+    border-radius: 10px;
+}
+
+.box-mapa{
+    width: 845px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background: var(--cor-6);
+    border-radius: 10px;
+}
+
+iframe{
+    width: 78%;
+    height: 100%;
+}
+
+
+
+footer {
+    background-color: var(--cor-3);
+    padding: 50px 0px 20px 0px;
+}
+
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+footer p{
+    color: var(--cor-6);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .parallax h1 {
+        width: 300px;
+
+    }
+
+    .nav-logo {
+        font-size: 2em;
+
+    }
+
+    .nav-links li a {
+        font-size: 1em;
+
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .rounded-circle {
+        width: 250px;
+        height: 250px;
+        margin-top: 50px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .conteudo p {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .conteudo p {
+        margin-top: 80px;
+    }
 }
 
