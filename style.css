@@ -110,10 +110,6 @@ body {
     object-fit: cover;
 }
 
-#carouselExampleInterval img{
-    height: 700px;
-}
-
 .img-menu{
     width: 100%;
 }
@@ -212,5 +208,10 @@ footer p{
     .conteudo p {
         margin-top: 80px;
     }
+
+    #carouselExampleInterval img{
+        height: 750px;
+    }
+    
 }
 
