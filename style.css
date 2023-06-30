@@ -30,7 +30,7 @@ body {
 .nav-logo {
     color: var(--cor-6);
     font-size: 3em;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
     text-decoration: none;
     padding: 5px;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .parallax h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
     background: var(--cor-5);
     color: var(--cor-2);
     width: 400px;
@@ -116,7 +116,7 @@ body {
 }
 
 .btn-menu{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
     background: var(--cor-2);
     color: var(--cor-6);
     font-size: 1.2em;
@@ -162,7 +162,7 @@ footer {
 }
 
 h4{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 2em;
 }
 
