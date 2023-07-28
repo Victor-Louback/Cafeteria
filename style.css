@@ -79,6 +79,7 @@ body {
 
 .caixa3{
     background-image: url(img/g-3.png);
+    background-position: bottom;
     height: 700px;
 }
 
